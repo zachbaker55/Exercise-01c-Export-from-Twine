@@ -47,6 +47,8 @@ world = {}
 ```
 This statement initializes a variable (called world) as an empty dictionary. Select the {} and replace it with the contents of the browser window you copied previously. If you are successful, main.py should now be around 230 lines long instead of 15. *Be careful to only select the {}. When you are done, line 5 should still start world = {*.
 
+Once you have pasted in the new world dictionary, edit the "startNode" key, so the game starts at PID 2. Also, change the "label" for the only link item in the Tree (PID 8), so it reads "CLIMB DOWN" instead of "DOWN".
+
 The rest of main.py is quite simple. It will print out the name of the world, and then go through each of the passages and print out their relevant contents. Confirm you haven't made any mistakes by running main.py; press the green Run button in the top of the replit window. 
 
 Like you did with Exercise-01b-Prompt-and-Response, create a new README.md file. The final state of the file should be as follows (replacing my information with yours). When you have finished editing, and then turn in the URL of the replit project (https://replit.com/@[username]/Exercise-01c-Export-from-Twine) on Canvas.
